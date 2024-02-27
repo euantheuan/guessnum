@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자맞추기 게임</title>
+    <link rel="stylesheet" href="../../기본 css.js 파일/css/font.css">
+    <link rel="stylesheet" href="../../기본 css.js 파일/css/reset.css">
+    <link rel="stylesheet" href="numguess.css">
+</head>
+<body>
+    <div class="numBox">
+        <h1>숫자 맞추기 게임</h1>
+        <p class="text">
+            <span>1부터 100 사이</span>의 숫자를 입력해주세요.
+        </p>
+        <p id="result">
+            <span>결과 확인</span>
+        </p>
+        <p id="leftchance">
+            남은 기회: <span>5</span>회
+        </p>
+
+        <input type="number" id="userInput">
+        <div class="btn_area">
+            <button id="play">PLAY</button>
+            <button id="reset">RESET</button>
+        </div>
+    </div>
+    
+    <script src="numguess.js"></script>
+</body>
+</html>
